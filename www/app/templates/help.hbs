@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="page-header">
+    <h1>How To Mine</h1>
+  </div>
+  <p class="lead">In order to mine on this pool you need to have an
+    <a href="https://github.com/ethereum/webthree-umbrella/releases" rel="nofollow" target="_blank">ethminer</a> installation
+    pointed to<br/><code>{{config.HttpHost}}:{{config.HttpPort}}/YOUR_BLACK_ADDRESS/RIG_ID</code>
+  </p>
+  <dl class="dl-horizontal">
+    <dt>YOUR_BLACK_ADDRESS</dt>
+    <dd>This is your address for payouts, generate one with gblack or
+      <a href="" rel="nofollow" target="_blank">MetaMask</a>.<br/>
+      <strong>Example:</strong> <code>0xb85150eb365e7df0941f0cf08235f987ba91506a</code>.
+    </dd>
+    <dt>RIG_ID</dt>
+    <dd>
+      ID of your farm to distinguish it from your other rig. If you have just one rig, feel free to omit this param.
+      This param must be short alphanumeric string with optional dashes and underscores.<br/>
+      <strong>Example:</strong> <code>rig-1</code>
+    </dd>
+  </dl>
+  <p>
+    <strong>Full example:</strong>
+    <code>ethminer -F {{config.HttpHost}}:{{config.HttpPort}}/0xb85150eb365e7df0941f0cf08235f987ba91506a/myfarm -G --farm-recheck 200</code>.<br/>
+    <span class="label label-info">Hint:</span> If you are compiling ethminer from latest source, please also use
+      extra <code>--disable-submit-hashrate</code> option.
+  </p>
+
+  <h4>Stratum Mining with ClaymoreMiner for BlackChain</h4>
+  <p class="lead">Download miner for GPU <a href="https://github.com/black-networks/claymoreminer" re="nofollow" target="_blank">Claymore Miner Github</a>.</p>
+  <p class="lead">Edit <code>black-gpu.bat</code> and enter your <code>WALLET</code>.</p>
+
+
+  <h4>Advice</h4>
+  <p>CPU mining is not recommended.</p>
+  <h4>Terms of Service</h4>
+  <p>By using the pool you accept all possible risks related to experimental software usage.<br/>
+     Pool owner can't compensate any irreversible losses, but will do his best to prevent worst case.
+  </p>
+</div>
