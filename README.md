@@ -56,8 +56,8 @@ Create a txt file and paste the private key of your pool wallet into it:
     nano priv.txt
     cntrl + x
     
-Import wallet to your node:
-    gblack account import priv.txt
+Import wallet to your node
+     gblack account import priv.txt
 
     
 
