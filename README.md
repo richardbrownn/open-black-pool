@@ -34,7 +34,7 @@ Dependencies:
 
 
 
-### 1. Installation from source(EASY)
+### 1. Installation from binaries(EASY)
 
 First install  [go-blackchain](https://github.com/black-networks/go-blackchain).
 
