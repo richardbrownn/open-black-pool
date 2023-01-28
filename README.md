@@ -1,4 +1,4 @@
-## Open Source Ethereum Mining Pool
+## Open Source Black Mining Pool
 
 ![Miner's stats page](https://user-images.githubusercontent.com/7374093/31591180-43c72364-b236-11e7-8d47-726cd66b876a.png)
 
@@ -34,7 +34,7 @@ Dependencies:
 
 
 
-### 1. Installation from source(EASY)
+### 1. Installation from binaries(EASY)
 
 First install  [go-blackchain](https://github.com/black-networks/go-blackchain).
 
@@ -55,10 +55,7 @@ Create a txt file and paste the private key of your pool wallet into it:
 
     nano priv.txt
     cntrl + x
-    
-Import wallet to your node:
     gblack account import priv.txt
-
     
 
 ### Running Pool
